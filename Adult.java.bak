@@ -13,7 +13,7 @@ public class Adult extends User {
         this.friendList=new ArrayList<User>();
         childID=new ArrayList<Child>();
     }
-	//Adding children
+
     public void connectChild(Child child)
     {
         childID.add(child);
